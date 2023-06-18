@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 
 import siteMetadata from '@/data/siteMetadata'
 
-const NewsletterForm = ({ title = 'عضویت در خبرنامهٔ ایمیلی تک‌پالس' }) => {
+const NewsletterForm = ({ title = 'عضویت در خبرنامه' }) => {
   const inputEl = useRef(null)
   const [error, setError] = useState(false)
   const [message, setMessage] = useState('')
@@ -47,14 +47,16 @@ const NewsletterForm = ({ title = 'عضویت در خبرنامهٔ ایمیلی
             className="w-72 rounded-md px-4 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600 dark:bg-black"
             id="email-input"
             name="email"
-            placeholder={subscribed ? "You're subscribed !  🎉" : 'Enter your email'}
+            placeholder={
+              subscribed ? 'عضویت شما با موفقیت انجام شد !  🎉' : 'آدرس ایمیل خود را وارد کنید'
+            }
             ref={inputEl}
             required
             type="email"
             disabled={subscribed}
           />
         </div>
-        <div className="mt-2 flex w-full rounded-md shadow-sm sm:mt-0 sm:ml-3">
+        <div className="mt-2 flex w-full rounded-md shadow-sm sm:mt-0 sm:mr-3">
           <button
             className={`w-full rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0 ${
               subscribed ? 'cursor-default' : 'hover:bg-primary-700 dark:hover:bg-primary-400'
@@ -62,7 +64,7 @@ const NewsletterForm = ({ title = 'عضویت در خبرنامهٔ ایمیلی
             type="submit"
             disabled={subscribed}
           >
-            {subscribed ? 'Thank you!' : 'Sign up'}
+            {subscribed ? 'متشکریم!' : 'عضویت'}
           </button>
         </div>
       </form>

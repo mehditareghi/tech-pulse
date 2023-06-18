@@ -49,7 +49,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
           </div>
         </div>
         <ul>
-          {!filteredBlogPosts.length && 'No posts found.'}
+          {!filteredBlogPosts.length && 'هیچ مقاله‌ای یافت نشد.'}
           {displayPosts.map((frontMatter) => {
             const { slug, date, title, summary, tags, mainPhoto } = frontMatter
             return (
