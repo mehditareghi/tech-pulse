@@ -5,6 +5,7 @@ mainPhoto: '/static/images/apple-vision-pro.png'
 tags: ['اپل ویژن پرو', 'WWDC23', 'VR']
 draft: false
 summary: در این مقاله به بررسی جدیدترین محصول اپل، یعنی اپل ویژن پرو، می‌پردازیم که توجه مخاطبان زیادی را به خود جلب کرده است...
+authors: ['pooriamoghaddasi']
 ---
 ![Apple Vision Pro](/static/images/apple-vision-pro.png)
 
