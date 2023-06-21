@@ -12,6 +12,11 @@ RUN npm install --global pm2
 COPY ./package*.json ./
 
 # Install dependencies
+
+
+RUN npm install husky -g
+
+
 RUN npm install --production
 
 # Copy all files
