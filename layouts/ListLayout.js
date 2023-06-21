@@ -62,13 +62,17 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                     </dd>
                     <dd className="pt-2">
                       {mainPhoto && (
-                        <Image
-                          src={mainPhoto}
-                          alt="alt"
-                          width="220"
-                          height="140"
-                          className="rounded-md"
-                        />
+                        <div className="w-full xl:w-11/12">
+                          <Link href={`/blog/${slug}`} className="text-gray-900 dark:text-gray-100">
+                            <Image
+                              src={mainPhoto}
+                              alt="alt"
+                              width="1920"
+                              height="1080"
+                              className="rounded-md"
+                            />
+                          </Link>
+                        </div>
                       )}
                     </dd>
                   </dl>
