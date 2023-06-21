@@ -13,7 +13,7 @@ authors: ['pooriamoghaddasi']
 
 این اپل ویژن پرو بود که در یک فضای حماسی و با تیزری که حال‌وهوای فیلم Ready player one را به شرکت‌کنندگان القا می‌کرد و اشاره‌های مستقیمی نیز به این فیلم شده بود، پا به WWDC23 گذاشت. خارق‌العاده بود؛ دنیایی زیبا و رؤیایی از ترکیب واقعیت و تکنولوژی، درست مقابل چشمان شما!
 
-<video src="https://github.com/mehditareghi/tech-pulse/assets/103553267/62f34412-7827-4449-904c-ffb6b548c113" controls="controls" style="max-width: 730px;">
+<video src="https://github.com/mehditareghi/tech-pulse/assets/103553267/62f34412-7827-4449-904c-ffb6b548c113" controls="controls" style={{maxWidth: "730px"}}>
 </video>
 
 
