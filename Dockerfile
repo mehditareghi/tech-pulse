@@ -12,6 +12,7 @@ RUN npm install --global pm2
 COPY ./package*.json ./
 
 # Install dependencies
+RUN npm install -g npm@9.7.2
 
 
 RUN npm install husky -g
