@@ -2,13 +2,13 @@
 title: اپل ویژن پرو؛ محصولی که اپل از آن می‌ترسید ولی به اپلی‌ترین شکل ممکن به‌سمت آن رفت!
 date: '2023-06-20'
 mainPhoto: '/static/images/apple-vision-pro.png'
-tags: ['اپل ویژن پرو', 'WWDC23', 'VR']
+tags: ['اپل ویژن پرو', 'WWDC23', 'واقعیت مجازی']
 draft: false
 summary: در این مقاله به بررسی جدیدترین محصول اپل، یعنی اپل ویژن پرو، می‌پردازیم که توجه مخاطبان زیادی را به خود جلب کرده است...
 authors: ['pooriamoghaddasi']
 ---
 
-![Apple Vision Pro](/static/images/apple-vision-pro.png)
+![اپل ویژن پرو](/static/images/apple-vision-pro.png)
 
 همایش WWDC23 شروع شد و پس از یک ساعت و فلان دقیقه صحبت‌های خسته‌کننده و قابل‌پیش‌بینی، عبارت معروف One more thing را شنیدیم؛ عبارتی که توجه شرکت‌کنندگان را با هیجانی فوق‌العاده به خود جلب کرد. شایعات درست بود؛ انقلابی جدید از سمت اپل در حال وقوع است!
 
@@ -17,7 +17,7 @@ authors: ['pooriamoghaddasi']
 <div className="w-full">
 <video width="1920" height="1080" controls>
   <source src="/static/videos/apple-vision-pro-reveal-trailer.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
+  تیزر رسمی اپل ویژن پرو
 </video>
 </div>
 
@@ -39,7 +39,7 @@ authors: ['pooriamoghaddasi']
 
 ویژگی جدید دیگری که در این هدست به‌کار رفته و ثبت پتنت هم شده، حالت Eyesight می‌باشد. به‌شخصه نسبت این ویژگی دید مثبتی ندارم؛ نمایش چشم‌ها پشت شیشهٔ جلویی روی یک نمایشگر OLED قرار نیست حسی مشابه ارتباط چشمی منتقل کند. این تکنولوژی گران‌قیمت اپل، کاربردی به‌نظر نمی‌رسد، ولی تلاشی‌ست برای نمایش حضور فیزیکی کسی که نصف صورتش را هدست اپل گرفته!
 
-![Apple Vision Pro Eyesight](/static/images/apple-vision-pro-eyesight.png)
+![حالت Eyesight اپل ویژن پرو](/static/images/apple-vision-pro-eyesight.png)
 
 اما چرا از این ویژگی متمایز اپل انتقاد می‌کنم؟ دلیلش واضح است: اپل ویژن پرو گران است، خیلی گران. نه‌تنها با استانداردهای ما ایرانیان، بلکه در سطح جهانی، برچسب قسمتی ۳۵۰۰ دلاری که در کشور ما ۱۸۰ میلیون تومان آب می‌خورد، کفهٔ ترازو را تغییر می‌دهد.
 

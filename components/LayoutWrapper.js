@@ -6,6 +6,7 @@ import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
+import Image from './Image'
 
 const LayoutWrapper = ({ children }) => {
   return (
@@ -16,7 +17,10 @@ const LayoutWrapper = ({ children }) => {
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
                 <div className="ml-3">
-                  <Logo />
+                  {/* <Logo /> */}
+                  <div className="w-20">
+                    <Image src="/static/logo.png" alt="Techpulse Logo" width={949} height={338} />
+                  </div>
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="hidden h-6 text-2xl font-semibold sm:block">
