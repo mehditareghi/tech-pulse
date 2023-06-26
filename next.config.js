@@ -62,7 +62,12 @@ module.exports = withBundleAnalyzer({
     return [
       {
         source: '/(.*)',
-        headers: securityHeaders,
+        headers: [
+          {
+            key: 'Content-Security-Policy',
+            value: 'frame-src *',
+          },
+        ],
       },
     ]
   },
