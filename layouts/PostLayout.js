@@ -57,7 +57,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               <dd>
                 <ul className="flex justify-center space-x-8 sm:space-x-12 xl:block xl:space-x-0 xl:space-y-8">
                   {authorDetails.map((author) => (
-                    <li className="flex items-center space-x-2" key={author.name}>
+                    <li className="flex items-center gap-1 space-x-2" key={author.name}>
                       {author.avatar && (
                         <Image
                           src={author.avatar}
