@@ -46,7 +46,7 @@ const MobileNav = () => {
         <div className="flex justify-end">
           <button
             type="button"
-            className="mr-5 mt-11 h-8 w-8 rounded"
+            className="ml-5 mt-11 h-8 w-8 rounded"
             aria-label="Toggle Menu"
             onClick={onToggleNav}
           >
@@ -69,7 +69,7 @@ const MobileNav = () => {
             <div key={link.title} className="px-12 py-4">
               <Link
                 href={link.href}
-                className="text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100"
+                className="text-2xl font-bold text-gray-900 dark:text-gray-100"
                 onClick={onToggleNav}
               >
                 {link.title}
