@@ -19,7 +19,12 @@ const LayoutWrapper = ({ children }) => {
                 <div className="ml-3">
                   {/* <Logo /> */}
                   <div className="w-20">
-                    <Image src="/static/logo.png" alt="Techpulse Logo" width={949} height={338} />
+                    <Image
+                      src="/static/images/logo.png"
+                      alt="Techpulse Logo"
+                      width={949}
+                      height={338}
+                    />
                   </div>
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
