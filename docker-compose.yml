@@ -4,6 +4,5 @@ services:
     build: ./
   nginx:
     build: ./nginx
-    working_dir: /usr/app
     ports:
       - 80:80
