@@ -11,10 +11,6 @@ RUN npm install --global pm2
 # Utilize Docker cache to save re-installing dependencies if unchanged
 COPY ./package*.json ./
 
-
-# Install Husky
-RUN npm install husky -g
-
 # Install dependencies
 RUN npm install
 
