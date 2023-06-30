@@ -23,8 +23,16 @@ RUN npm run build
 # Expose the listening port
 EXPOSE 3000
 
-# Run container as non-root (unprivileged) user
-# The node user is provided in the Node.js Alpine base image
+# Check if the 'node' group exists, if not, create it
+RUN getent group node || groupadd -r node
+
+# Check if the 'node' user exists, if not, create it
+RUN getent passwd node || useradd -r -g node node
+
+# Set ownership to the node user
+RUN chown -R node:node /usr/app
+
+# Switch to the node user
 USER node
 
 # Run npm start script with PM2 when container starts
