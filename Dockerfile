@@ -14,9 +14,6 @@ COPY ./package*.json ./
 # Install dependencies
 RUN npm install
 
-# Install additional dependencies required for build
-RUN npm install --save-dev eslint @svgr/webpack
-
 # Copy all files
 COPY ./ ./
 
