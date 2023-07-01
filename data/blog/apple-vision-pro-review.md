@@ -16,7 +16,7 @@ authors: ['pooriamoghaddasi']
 
 <div className="w-full">
 <video width="1920" height="1080" controls>
-  <source src="/static/videos/apple-vision-pro-reveal-trailer.mp4" type="video/mp4" />
+  <source src="/videos/apple-vision-pro-reveal-trailer.mp4" type="video/mp4" />
   تیزر رسمی اپل ویژن پرو
 </video>
 </div>
@@ -45,7 +45,7 @@ authors: ['pooriamoghaddasi']
 
 <div className="w-full">
 <video width="1920" height="1080" controls>
-  <source src="/static/videos/crowds-reaction-to the-price-of-apple-vision-pro.mp4" type="video/mp4" />
+  <source src="/videos/crowds-reaction-to the-price-of-apple-vision-pro.mp4" type="video/mp4" />
 ری‌اکشن شرکت‌کنندگان نسبت به قیمت اپل ویژن پرو
 </video>
 </div>

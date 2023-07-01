@@ -4,7 +4,7 @@ class MyDocument extends Document {
     return (
       <Html lang="fa" dir="rtl" className="scroll-smooth">
         <Head>
-          <link rel="icon" href="/static/favicon.png" sizes="any" />
+          <link rel="icon" href="/static/favicon.ico" sizes="any" />
           <meta name="msapplication-TileColor" content="#000000" />
           <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
           <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
