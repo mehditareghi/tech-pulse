@@ -1,18 +1,13 @@
-import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
-import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
-import { getAllTags } from '@/lib/tags'
-import kebabCase from '@/lib/utils/kebabCase'
 
 export async function getStaticProps() {
-  const tags = await getAllTags('blog')
-
-  return { props: { tags } }
+  return {
+    props: {},
+  }
 }
 
-export default function Tags({ tags }) {
-  const sortedTags = Object.keys(tags).sort((a, b) => tags[b] - tags[a])
+export default function About() {
   return (
     <>
       <PageSEO title={`دربارهٔ ما - ${siteMetadata.title}`} />
