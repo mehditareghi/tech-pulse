@@ -12,7 +12,7 @@ class MyDocument extends Document {
             name="google-site-verification"
             content="7MaPBsR5Dfz7s6_FzrN7u-FZo8fToWXC1si8_dvmyzs"
           />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-8YWVLNYV5P"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-DGKC6DPEFW"></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -20,7 +20,7 @@ class MyDocument extends Document {
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-8YWVLNYV5P');
+      gtag('config', 'G-DGKC6DPEFW');
     `,
             }}
           />
