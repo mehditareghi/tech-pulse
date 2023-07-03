@@ -12,6 +12,18 @@ class MyDocument extends Document {
             name="google-site-verification"
             content="7MaPBsR5Dfz7s6_FzrN7u-FZo8fToWXC1si8_dvmyzs"
           />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-8YWVLNYV5P"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8YWVLNYV5P');
+    `,
+            }}
+          />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
         </Head>
         <body className="bg-white text-black antialiased dark:bg-gray-900 dark:text-white">
