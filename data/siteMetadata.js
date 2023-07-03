@@ -7,9 +7,9 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://techpulse.app',
   siteRepo: 'https://github.com/mehditareghi/tech-pulse',
-  siteLogo: '/static/images/logo.png',
+  siteLogo: '/static/images/logo.webp',
   image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/logo.webp',
   email: 'mehditareghi@icloud.com',
   github: 'https://github.com',
   twitter: 'https://twitter.com/Twitter',

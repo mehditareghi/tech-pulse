@@ -19,7 +19,7 @@ const LayoutWrapper = ({ children }) => {
                   {/* <Logo /> */}
                   <div className="w-20">
                     <Image
-                      src="/static/images/logo.png"
+                      src="/static/images/logo.webp"
                       alt="Techpulse Logo"
                       width={949}
                       height={338}
