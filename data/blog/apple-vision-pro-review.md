@@ -15,7 +15,7 @@ authors: ['pooriamoghaddasi']
 این اپل ویژن پرو بود که در یک فضای حماسی و با تیزری که حال‌وهوای فیلم Ready player one را به شرکت‌کنندگان القا می‌کرد و اشاره‌های مستقیمی نیز به این فیلم شده بود، پا به WWDC23 گذاشت. خارق‌العاده بود؛ دنیایی زیبا و رؤیایی از ترکیب واقعیت و تکنولوژی، درست مقابل چشمان شما!
 
 <figure>
-<video width="1920" height="1080" controls>
+<video width="1920" height="1080" controls poster="/static/videos/apple-vision-pro-reveal-trailer.webp">
   <source src="/static/videos/apple-vision-pro-reveal-trailer.mp4" type="video/mp4" />
   تیزر رسمی اپل ویژن پرو
 </video>
