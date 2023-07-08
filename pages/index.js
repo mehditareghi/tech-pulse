@@ -51,7 +51,7 @@ export default function Home({ posts }) {
                             >
                               <Image
                                 src={mainPhoto}
-                                alt="alt"
+                                alt={title}
                                 width="1920"
                                 height="1080"
                                 className="rounded-md"
